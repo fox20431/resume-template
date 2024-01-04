@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Smiley Sans Oblique';
+    src: url('/fonts/SmileySans-Oblique.otf.woff2') format('woff');
+    /* 添加其他格式的字体文件，以提高兼容性 */
+}

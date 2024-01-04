@@ -2,26 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import 'fonts.css';
+
+html {
+  font-size: 12pt; /* 默认字体12磅（point） 1pt=1/72inch */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@media print {
+  .no-print {
+    display: none;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.page {
+  width: 21cm;
+  font-size: 12pt;
+  /* margin: 1.5cm; */
+  margin-inline: auto;
+  padding-inline: 2.54cm;
 }
