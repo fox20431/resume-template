@@ -135,5 +135,7 @@ Change `data/resume.json` content and keep the following schema:
 
 **Use absolute length units**, more about the it please check [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#lengths).
 
+If you don't install the specify fonts, please uncomment the code in `app/fonts.css`.
+
 You can create `.env.local` in the project root, and specify the sensitive content.
 

@@ -1,10 +1,11 @@
-@font-face {
+/* Smiley Sans Oblique */
+/* @font-face {
     font-family: 'Smiley Sans Oblique';
     src: url('/fonts/SmileySans-Oblique.otf.woff2') format('woff');
-}
+} */
 
 /* Source Han Serif SC */
-@font-face {
+/* @font-face {
     font-family: 'Source Han Serif SC';
     font-weight: bold;
     src: url('/fonts/SourceHanSerifSC-Bold.otf') format('woff');
@@ -18,10 +19,10 @@
     font-family: 'Source Han Serif SC';
     font-weight: light;
     src: url('/fonts/SourceHanSerifSC-Light.otf') format('woff');
-}
+} */
 
 /* Source Han Sans SC */
-@font-face {
+/* @font-face {
     font-family: 'Source Han Sans SC';
     font-weight: bold;
     src: url('/fonts/SourceHanSansSC-Bold.otf') format('woff');
@@ -35,10 +36,11 @@
     font-family: 'Source Han Sans SC';
     font-weight: light;
     src: url('/fonts/SourceHanSansSC-Light.otf') format('woff');
-}
+} */
 
 /* Source Han Sans HW SC */
-@font-face {
+
+/* @font-face {
     font-family: 'Source Han Sans HW SC';
     font-weight: bold;
     src: url('/fonts/SourceHanSansHWSC-Bold.otf') format('woff');
@@ -47,5 +49,5 @@
     font-family: 'Source Han Sans HW SC';
     font-weight: normal;
     src: url('/fonts/SourceHanSansHWSC-Regular.otf') format('woff');
-}
+} */
 
