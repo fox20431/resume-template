@@ -1,19 +1,29 @@
-export interface Location {
-    address: string;
-    postalCode: string;
-    city: string;
-    countryCode: string;
-    region: string;
-}
-
 export interface Basic {
     name: string;
-    position: string;
+    profession: string;
     email: string;
     phone: string;
     url: string;
     summary: string;
     location: Location;
+}
+
+export interface Location {
+    address: string;
+    city: string;
+    province: string;
+    country: string;
+    postalCode: string;
+}
+
+export interface EducationExperience {
+    university: string;
+    universityType: string;
+    school: string;
+    major: string;
+    startDate: string;
+    endDate: string;
+    score: string;
 }
 
 export interface WorkExperience {
@@ -26,7 +36,7 @@ export interface WorkExperience {
     highlights: string[];
 }
 
-export interface Project {
+export interface ProjectExperience {
     name: string;
     startDate: string;
     endDate: string;
@@ -35,18 +45,7 @@ export interface Project {
     url: string;
 }
 
-export interface Education {
-    institution: string;
-    url: string;
-    area: string;
-    studyType: string;
-    startDate: string;
-    endDate: string;
-    score: string;
-    courses: string[];
-}
-
-export interface Honour {
+export interface Honor {
     title: string;
     date: string;
     awarder: string;
@@ -61,9 +60,9 @@ export interface Skill {
 
 export interface Resume {
     basics: Basic;
-    work: WorkExperience[];
-    projects: Project[];
-    education: Education[];
-    honour: Honour[];
+    educationExperiences: EducationExperience[];
+    workExperiences: WorkExperience[];
+    projectExperiences: ProjectExperience[];
+    honors: Honor[];
     skills: Skill[];
 }

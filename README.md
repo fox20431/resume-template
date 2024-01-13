@@ -1,16 +1,14 @@
+# RESUME TEMPLATE
 
-
-
-
-## 运行
+## Run
 
 ```sh
 npm run dev
 ```
 
-## 更换内容
+## How to Use
 
-schema:
+Change `data/resume.json` content and keep the following schema:
 
 ```json
 {
@@ -125,7 +123,7 @@ schema:
 }
 ```
 
-## 打印方案
+## How to Print
 
 改简历针对A4（21cm x 29.7cm）纸张设计。
 
@@ -133,6 +131,9 @@ schema:
 
 **切记宽度间距调整成0，否则会缩小原先内容**；但修改长度不会缩放内容大小（还是文本流的原因）。
 
-## 二次开发
+## Contribution
 
-使用pt、cm这类与物理距离相关的单位作为长度单位；
+Use the `pt` and `cm` unit(obsolutely length).
+
+You can create `.env.local` in the project root, and specify the sensitive content.
+

@@ -1,0 +1,64 @@
+{
+  "basics": {
+    "name": "李鸣",
+    "profession": "全栈开发工程师",
+    "email": "fox20431@gmail.com",
+    "phone": "(+86) 13675674657",
+    "url": "https://iimn.net",
+    "location": {
+      "address": "宝安区",
+      "city": "深圳",
+      "province": "广东",
+      "country": "中国",
+      "postalCode": "94115"
+    }
+  },
+  "educationExperiences": [{
+    "university": "皖西学院",
+    "universityType": "全日制本科",
+    "school": "电子与信息工程学院",
+    "major": "计算机科学与技术",
+    "startDate": "2018-09",
+    "endDate": "2022-06",
+    "score": "4.0", 
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "workExperiences": [{
+    "name": "Company",
+    "position": "President",
+    "url": "https://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Started the company"
+    ]
+  }],
+  "projectExperiences": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "honors": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }]
+}

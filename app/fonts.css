@@ -1,5 +1,51 @@
 @font-face {
     font-family: 'Smiley Sans Oblique';
     src: url('/fonts/SmileySans-Oblique.otf.woff2') format('woff');
-    /* 添加其他格式的字体文件，以提高兼容性 */
 }
+
+/* Source Han Serif SC */
+@font-face {
+    font-family: 'Source Han Serif SC';
+    font-weight: bold;
+    src: url('/fonts/SourceHanSerifSC-Bold.otf') format('woff');
+}
+@font-face {
+    font-family: 'Source Han Serif SC';
+    font-weight: normal;
+    src: url('/fonts/SourceHanSerifSC-Regilar.otf') format('woff');
+}
+@font-face {
+    font-family: 'Source Han Serif SC';
+    font-weight: light;
+    src: url('/fonts/SourceHanSerifSC-Light.otf') format('woff');
+}
+
+/* Source Han Sans SC */
+@font-face {
+    font-family: 'Source Han Sans SC';
+    font-weight: bold;
+    src: url('/fonts/SourceHanSansSC-Bold.otf') format('woff');
+}
+@font-face {
+    font-family: 'Source Han Sans SC';
+    font-weight: normal;
+    src: url('/fonts/SourceHanSansSC-Normal.otf') format('woff');
+}
+@font-face {
+    font-family: 'Source Han Sans SC';
+    font-weight: light;
+    src: url('/fonts/SourceHanSansSC-Light.otf') format('woff');
+}
+
+/* Source Han Sans HW SC */
+@font-face {
+    font-family: 'Source Han Sans HW SC';
+    font-weight: bold;
+    src: url('/fonts/SourceHanSansHWSC-Bold.otf') format('woff');
+}
+@font-face {
+    font-family: 'Source Han Sans HW SC';
+    font-weight: normal;
+    src: url('/fonts/SourceHanSansHWSC-Regular.otf') format('woff');
+}
+

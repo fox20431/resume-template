@@ -15,6 +15,9 @@ const config: Config = {
       },
       fontFamily: {
         smileySansOblique: ['Smiley Sans Oblique'],
+        sourceHanSerifSC: ['Source Han Serif SC'],
+        SourceHanSansSC: ['SourceHanSansSC'],
+        SourceHanSansHWSC: ['Source Han Sans HW SC']
       },
     },
   },
