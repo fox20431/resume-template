@@ -133,7 +133,7 @@ Change `data/resume.json` content and keep the following schema:
 
 ## Contribution
 
-Use the `pt` and `cm` unit(obsolutely length).
+**Use absolute length units**, more about the it please check [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#lengths).
 
 You can create `.env.local` in the project root, and specify the sensitive content.
 
