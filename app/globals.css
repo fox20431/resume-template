@@ -17,7 +17,9 @@
 }
 
 html {
-  font-size: 12pt; /* 默认字体12磅（point） 1pt=1/72inch */
+  /* Set defualt font to 12 pt(point) 1pt=1/72inch */
+  /* This is Rem's reference */
+  font-size: 12pt; 
 }
 
 section {
@@ -30,3 +32,9 @@ section {
   font-size: 12pt;
   margin-inline: auto;
 }
+
+.normal-font {
+
+}
+
+

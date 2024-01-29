@@ -27,13 +27,12 @@ export interface EducationExperience {
 }
 
 export interface WorkExperience {
-    name: string;
-    position: string;
+    company: string;
     url: string;
     startDate: string;
     endDate: string;
-    summary: string;
-    highlights: string[];
+    jobDescription: string[];
+    achievement: string[];
 }
 
 export interface ProjectExperience {

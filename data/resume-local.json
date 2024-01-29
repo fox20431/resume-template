@@ -5,6 +5,7 @@
     "email": "fox20431@gmail.com",
     "phone": "(+86) 13675674657",
     "url": "https://iimn.net",
+    "valuation": "Your advantages (optional)",
     "location": {
       "address": "宝安区",
       "city": "深圳",
@@ -26,14 +27,14 @@
     ]
   }],
   "workExperiences": [{
-    "name": "Company",
+    "company": "eee",
     "position": "President",
-    "url": "https://company.com",
     "startDate": "2013-01-01",
     "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
+    "jobDescription": [],
+    "archievement": [
+      "Started the company",
+      "12312"
     ]
   }],
   "projectExperiences": [{

@@ -39,8 +39,8 @@ const Header: React.FC<HeaderProps> = ({ basics, pfp }) => {
               </a>
             </div>
             <div className="h-6 flex items-center ml-2">
-              <EnvelopeIcon className="h-3 w-3 items-center" />
-              <a href={"mailto:" + email} className="ml-">
+              <EnvelopeIcon className="h-3 w-3" />
+              <a href={"mailto:" + email} className="ml-1">
                 {email}
               </a>
             </div>

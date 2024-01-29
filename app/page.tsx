@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import * as ResumeData from "@/types/Resume";
 import EducationExperience from "@/components/Education";
 import Education from "@/components/Education";
+import { Work } from "@/components/Work";
 
 export default function Home() {
   const resumePromise = import(process.env.NEXT_PUBLIC_RESUME_DATA_LOCATION!);
@@ -45,8 +46,10 @@ export default function Home() {
           style={{ height: "1in", borderTop: "1pt solid" }}
         ></div>
         <main className="w-full">
+          <div className="text-base">hello</div>
           <Header basics={resume?.basics} pfp={profilePhoto} />
           <Education educationExperiences={resume?.educationExperiences} />
+          <Work workExperiences={resume?.workExperiences}/>
         </main>
         {/* set no-print bottom margin */}
         <div
