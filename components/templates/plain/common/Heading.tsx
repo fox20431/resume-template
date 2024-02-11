@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Title: React.FC<{title: string}> = ({title}) => {
+export const Heading: React.FC<{title: string}> = ({title}) => {
   return (
     <div className="flex flex-row mt-4">
       <h2 className=" font-SourceHanSansHWSC text-2xl font-bold">{title}</h2>

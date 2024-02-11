@@ -139,3 +139,21 @@ If you don't install the specify fonts, please uncomment the code in `app/fonts.
 
 You can create `.env.local` in the project root, and specify the sensitive content.
 
+
+# Resume Formmat
+
+| Content | Size |
+| - | - |
+|Body Text | 10 to 12 points|
+|Headings | 14 to 16 points |
+|Subheadings | 12 to 14 points |
+|Line Spaceing | 1.15 to 1.5 line spaceing |
+
+
+
+
+Body 10 pt
+
+SubHeading 1.25rem =  12.5pt
+
+Heading 1.5rem = 15pt

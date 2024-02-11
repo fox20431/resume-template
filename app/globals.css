@@ -19,7 +19,7 @@
 html {
   /* Set defualt font to 12 pt(point) 1pt=1/72inch */
   /* This is Rem's reference */
-  font-size: 12pt; 
+  font-size: 10pt !important; 
 }
 
 section {
@@ -29,12 +29,9 @@ section {
 
 .page {
   width: 21cm;
-  font-size: 12pt;
   margin-inline: auto;
 }
 
-.normal-font {
 
-}
 
 

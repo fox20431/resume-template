@@ -21,24 +21,22 @@ export interface EducationExperience {
     universityType: string;
     school: string;
     major: string;
-    startDate: string;
-    endDate: string;
+    duration: Duration;
     score: string;
 }
 
 export interface WorkExperience {
     company: string;
     url: string;
-    startDate: string;
-    endDate: string;
+    position: string;
+    duration: Duration;
     jobDescription: string[];
     achievement: string[];
 }
 
 export interface ProjectExperience {
     name: string;
-    startDate: string;
-    endDate: string;
+    duration: Duration;
     description: string;
     highlights: string[];
     url: string;
@@ -64,4 +62,9 @@ export interface Resume {
     projectExperiences: ProjectExperience[];
     honors: Honor[];
     skills: Skill[];
+}
+
+export interface Duration {
+    start: string;
+    end: string;
 }
